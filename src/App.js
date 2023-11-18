@@ -6,9 +6,9 @@ function App () {
   const [rating, setRating] = useState(null)
   const [genre, setGenre] = useState("")
   const [movies, setMovies] = useState([
-      {'title': 'Shawshank Redemption', "rating": 10, "genre": 'Drama' },
-      {'title': 'Min søsters børn', "rating": 6, "genre": 'Komedie' },
-      {'title': 'Ingloriuos Bastards', "rating": 10, "genre": 'Action' },
+      {"title": "Shawshank Redemption", "rating": 10, "genre": "Drama"},
+      {"title": "Min søsters børn", "rating": 6, "genre": "Komedie"},
+      {'title': "Ingloriuos Bastards", "rating": 10, "genre": "Action"}
   ])
 
 const updateMovies = (idx, key, value) => {
